@@ -1,0 +1,16 @@
+{
+  "name": "cv",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "http-server ./public",
+    "http-server": "http-server",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Jason Yu <me@ycmjason.com> (ycmjason.com)",
+  "license": "ISC",
+  "dependencies": {
+    "http-server": "^0.9.0"
+  }
+}
