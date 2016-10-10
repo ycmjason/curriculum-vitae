@@ -1,7 +1,9 @@
 .cv{
   margin-top: 0.5em;
+  margin-bottom: 1em;
   padding: 1em 2em;
   font-size: 14px;
+  line-height: normal;
 }
 
 .cv ul{
@@ -29,7 +31,7 @@
 
 .cv main table td:nth-child(1){
   font-weight: bold;
-  width: 67px;
+  width: 85px;
 }
 
 .cv main table td:nth-child(3){
@@ -39,7 +41,11 @@
 
 .cv main table td{
   vertical-align: top;
-  padding: 3px;
+  padding: 3px 3px 3px 0;
+}
+
+.cv main table tr.other{
+  font-size: 85%;
 }
 
 .cv main table td p{
@@ -54,6 +60,23 @@
 
 .cv main table th{
   font-size: 15px;
-  border-bottom: 1px black solid;
+  border-bottom: 1px rgb(51, 51, 51) solid;
   padding-top: 0.4em;
+}
+
+.cv footer{
+  font-size: 85%;
+  position: absolute;
+  bottom: 1em;
+  right: 2em;
+}
+
+@media print{
+  .cv{
+    margin: 0;
+  }
+
+  a[href]:after {
+    content: none !important;
+  }
 }

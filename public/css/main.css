@@ -12,6 +12,11 @@ body{
   margin: 0;
   background: #e2e1e0;
 }
+
+a:link, a:visited, a:hover, a:active {
+  color: rgb(51, 51, 51);
+}
+
 /* responsive a4paper width referencing bootstrap */
 .a4paper{
   background: white;
