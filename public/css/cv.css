@@ -1,7 +1,7 @@
 .cv{
   margin-top: 0.5em;
   margin-bottom: 1em;
-  padding: 1em 2em;
+  padding: 1.5em 2em;
   font-size: 14px;
   line-height: normal;
 }
@@ -69,6 +69,14 @@
   position: absolute;
   bottom: 1em;
   right: 2em;
+}
+
+.cv a[href]::after{
+  font-family: 'Glyphicons Halflings';
+  content: "\e164";
+  font-size: 0.6em;
+  vertical-align: text-top;
+  color: #BBBBBB;
 }
 
 @media print{

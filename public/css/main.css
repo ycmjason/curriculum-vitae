@@ -8,7 +8,8 @@
   font-weight: bold;
 }
 body{
-  font-family: raleway, calibri, arial;
+/*  font-family: raleway, calibri, arial;*/
+  font-family: arial;
   margin: 0;
   background: #e2e1e0;
 }
