@@ -65,10 +65,7 @@
 }
 
 .cv footer{
-  font-size: 85%;
-  position: absolute;
-  bottom: 1em;
-  right: 2em;
+  display: none;
 }
 
 .cv a[href]::after{
@@ -86,5 +83,13 @@
 
   a[href]:after {
     content: none !important;
+  }
+
+  .cv footer{
+    display: block;
+    font-size: 85%;
+    position: absolute;
+    bottom: 1em;
+    right: 2em;
   }
 }
